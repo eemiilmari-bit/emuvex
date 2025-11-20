@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas Tower Defense</title>
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>Canvas Tower Defense</h1>
+        <p class="subtitle">Click on the grass to place towers and stop the creeps.</p>
+      </div>
+      <button id="restart">Restart Game</button>
+    </header>
+
+    <section class="hud">
+      <div>Lives: <span id="lives"></span></div>
+      <div>Coins: <span id="coins"></span></div>
+      <div>Wave: <span id="wave"></span></div>
+      <div>Status: <span id="status"></span></div>
+    </section>
+
+    <canvas id="game" width="900" height="560" aria-label="tower defense game" role="img"></canvas>
+
+    <section class="info">
+      <h2>How to play</h2>
+      <ul>
+        <li>Click on the grass to place a tower. Towers cannot block the path.</li>
+        <li>Each tower costs 60 coins. You start with 200 coins and earn 20 per defeat.</li>
+        <li>Survive five waves of creeps. If ten reach the base you lose.</li>
+      </ul>
+    </section>
+  </main>
+  <script src="src/game.js"></script>
+</body>
+</html>
