@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe Lobby</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="brand">Emuvex Arena</div>
+      <div class="user-slot" id="userDisplay"></div>
+    </header>
+
+    <main id="views">
+      <section id="authView" class="panel">
+        <h1>Pick a username</h1>
+        <div class="stack">
+          <input id="username" placeholder="Your name" />
+          <button id="checkName">Check & Enter</button>
+          <p id="nameStatus" class="muted"></p>
+        </div>
+      </section>
+
+      <section id="menuView" class="panel hidden">
+        <h2>Main menu</h2>
+        <div class="menu-grid">
+          <button id="createLobby">Create lobby</button>
+          <button id="browseLobby">Join public lobby</button>
+          <button id="joinByCode">Join by code</button>
+          <button id="playAi">Play vs AI</button>
+          <button id="casual">Casual 1v1</button>
+        </div>
+        <div id="publicList" class="hidden"></div>
+      </section>
+
+      <section id="lobbyView" class="panel hidden">
+        <div class="lobby-header">
+          <div>
+            <h2 id="lobbyTitle"></h2>
+            <p class="muted" id="lobbyCode"></p>
+          </div>
+          <div class="actions">
+            <button id="leaveLobby">Leave</button>
+          </div>
+        </div>
+        <div class="lobby-grid">
+          <div>
+            <h3>Players</h3>
+            <ul id="playerList" class="list"></ul>
+            <h3>Spectators</h3>
+            <ul id="spectatorList" class="list"></ul>
+            <div class="stack">
+              <button id="startMatch">Start tournament</button>
+              <button id="randomMatch">Random duel</button>
+            </div>
+          </div>
+          <div>
+            <h3>Settings</h3>
+            <div class="stack" id="settingsForm">
+              <label>Mode
+                <select id="mode">
+                  <option value="classic">Classic</option>
+                  <option value="ultimate">Ultimate</option>
+                </select>
+              </label>
+              <label>Grid size
+                <input type="number" id="gridSize" min="3" max="7" value="3" />
+              </label>
+              <label>Win length
+                <input type="number" id="winLength" min="3" max="7" value="3" />
+              </label>
+              <label><input type="checkbox" id="allowDiagonal" checked /> Diagonals allowed</label>
+              <label><input type="checkbox" id="allowVertical" checked /> Verticals allowed</label>
+              <label><input type="checkbox" id="allowHorizontal" checked /> Horizontals allowed</label>
+              <label>Match wins to take tournament
+                <input type="number" id="matchWins" min="1" max="10" value="1" />
+              </label>
+              <label><input type="checkbox" id="powerUps" /> Power-ups on</label>
+              <label>Power-up limit per match
+                <input type="number" id="powerUpLimit" min="0" max="5" value="0" />
+              </label>
+              <label>Forget after placements (0 to disable)
+                <input type="number" id="forgetAfter" min="0" max="20" value="0" />
+              </label>
+              <div class="actions">
+                <button id="applySettings">Apply</button>
+                <button id="editSettings">Edit later</button>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="chat-header">
+              <h3>Lobby chat</h3>
+              <label><input type="checkbox" id="chatToggle" checked /> Enable chat</label>
+            </div>
+            <div id="messages" class="messages"></div>
+            <div class="chat-input">
+              <input id="chatText" placeholder="Say hello" />
+              <button id="sendChat">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gameView" class="panel hidden">
+        <div class="game-top">
+          <div>
+            <h2 id="gameTitle">Tic Tac Toe</h2>
+            <p class="muted" id="gameStatus"></p>
+          </div>
+          <button id="backToLobby">Back to lobby</button>
+        </div>
+        <div class="board" id="board"></div>
+        <p class="muted" id="forgetHint"></p>
+        <div class="scores" id="scores"></div>
+      </section>
+    </main>
+  </div>
+  <script src="/client.js"></script>
+</body>
+</html>
