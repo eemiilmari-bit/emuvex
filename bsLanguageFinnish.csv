@@ -447,15 +447,15 @@ jos niihin on liitetty erillinen näppäimistö heidän käyttöä varten.
 Huomaa, että sinun on silti määritettävä yksilölliset avaimet
 siinäkin tapauksessa kaksi pelaajaa."
 347,d41d8cd98f00b204e9800998ecf8427e,"['configTouchscreenWindow', 'actionControlScaleText']","title for a control to scale the on-screen buttons up or down on a touchscreen
-Context Image: http://files.froemling.net/translateGuideImages/configTouchscreen.png",Action Control Scale,Action Control Scale
+Context Image: http://files.froemling.net/translateGuideImages/configTouchscreen.png",Action Control Scale,Toimintopainikkeiden koko
 348,d41d8cd98f00b204e9800998ecf8427e,"['configTouchscreenWindow', 'actionsText']",,Actions,Toiminnot
-349,76c20131b3b0ec61c0a71b3d0717bb1e,"['configTouchscreenWindow', 'buttonsText']",,buttons,Nappulaiset
+349,76c20131b3b0ec61c0a71b3d0717bb1e,"['configTouchscreenWindow', 'buttonsText']",,buttons,Napit
 350,d41d8cd98f00b204e9800998ecf8427e,"['configTouchscreenWindow', 'dragControlsText']",,< drag controls to reposition them >,< vetämällä säätimiä siirtääksesi ne >
-351,3dd0b2b8bbbef64f326eda6fae56f34e,"['configTouchscreenWindow', 'joystickText']",,joystick,Sauva
+351,3dd0b2b8bbbef64f326eda6fae56f34e,"['configTouchscreenWindow', 'joystickText']",,joystick,Ohjainsauva
 352,d41d8cd98f00b204e9800998ecf8427e,"['configTouchscreenWindow', 'movementControlScaleText']","title for a control to scale the on-screen movement controls up or down on a touchscreen
 Context Image: http://files.froemling.net/translateGuideImages/configTouchscreen.png",Movement Control Scale,Liikkeenhallinta-asteikko
 353,d9ca3dcfc00ac1b00bb8e5f5606b6b30,"['configTouchscreenWindow', 'movementText']",,Movement,Liike
-354,efa3be4a382183af8b72cb77433b60aa,"['configTouchscreenWindow', 'resetText']",,Reset,Aseta uudelleen
+354,efa3be4a382183af8b72cb77433b60aa,"['configTouchscreenWindow', 'resetText']",,Reset,Palauta
 355,d41d8cd98f00b204e9800998ecf8427e,"['configTouchscreenWindow', 'swipeControlsHiddenText']","title for a checkbox to hide the on-screen touch controls (only the ones in swipe mode)
 Context Image: http://files.froemling.net/translateGuideImages/configTouchscreen2.png",Hide Swipe Icons,Piilota pyyhkäisykuvakkeet
 356,d41d8cd98f00b204e9800998ecf8427e,"['configTouchscreenWindow', 'swipeInfoText']",,"'Swipe' style controls take a little getting used to but
@@ -466,16 +466,16 @@ helpottaa pelaamista katsomatta säätimiä."
 359,d41d8cd98f00b204e9800998ecf8427e,['configureDeviceInSystemSettingsText'],,${DEVICE} can be configured in the System Settings app.,${DEVICE} voidaan määrittää Järjestelmäasetukset-sovelluksessa.
 360,26fdd4c06d0aa3178b4d3856f6bb15d4,['configureItNowText'],,Configure it now?,Määritetäänkö nyt?
 361,4b14fc21764869cd6e19d315019dd16f,['configureText'],,Configure,Määritä
-362,d41d8cd98f00b204e9800998ecf8427e,['confirmText'],Label for some UI element asking the user to confirm a purchase or other operation.,Confirm,Vahvistaa
+362,d41d8cd98f00b204e9800998ecf8427e,['confirmText'],Label for some UI element asking the user to confirm a purchase or other operation.,Confirm,Vahvista
 363,819e775506c8cb4a5f1f3385924f12d4,"['connectMobileDevicesWindow', 'amazonText']",,Amazon Appstore,Amazon Appstore
-364,d41d8cd98f00b204e9800998ecf8427e,"['connectMobileDevicesWindow', 'appStoreText']",,App Store,App Storesta
+364,d41d8cd98f00b204e9800998ecf8427e,"['connectMobileDevicesWindow', 'appStoreText']",,App Store,App Store
 365,d41d8cd98f00b204e9800998ecf8427e,"['connectMobileDevicesWindow', 'bestResultsText']",,"For best results you'll need a lag-free wifi network. You can
 reduce wifi lag by turning off other wireless devices, by
 playing close to your wifi router, and by connecting the
 game host directly to the network via ethernet.","Parhaan tuloksen saavuttamiseksi tarvitset viivettömän wifi-verkon. Voit
-pienennä wifi-viivettä sammuttamalla muut langattomat laitteet
-pelaaminen lähellä wifi-reititintäsi ja yhdistämällä
-peliisäntä suoraan verkkoon Ethernetin kautta."
+pienentää viivettä sammuttamalla muut langattomat laitteet,
+pelaamalla lähellä wifi-reititintäsi ja yhdistämällä
+peli-isännän suoraan verkkoon Ethernetin kautta."
 366,d41d8cd98f00b204e9800998ecf8427e,"['connectMobileDevicesWindow', 'explanationText']","description for the BombSquad Remote app info window
 Context Image: http://files.froemling.net/translateGuideImages/mobileDeviceAsController.png","To use a smart-phone or tablet as a wireless controller,
 install the ""${REMOTE_APP_NAME}"" app on it. Any number of devices
@@ -493,7 +493,7 @@ Context Image: http://files.froemling.net/translateGuideImages/mobileDeviceAsCon
 Context Image: http://files.froemling.net/translateGuideImages/mobileDeviceAsController.png",Using Mobile Devices as Controllers:,Mobiililaitteiden käyttö ohjaimina:
 372,1d0a47d358c7bc1882e5adff4cffe141,['continuePurchaseText'],Some mini-games may allow purchasing an extra life/etc. for some tickets. This is shown in that case.,Continue for ${PRICE}?,Jatketaanko ${PRICE} hintaan?
 373,169308b469d1045ea9cda11a30621f54,['continueText'],Label used on a button to continue the current game (possibly by purchasing/using an extra life).,Continue,Jatka
-374,c018debada3ca33d66c72099d16abac7,['controlsText'],label used above a listing of which buttons do what,Controls,Kontrollit
+374,c018debada3ca33d66c72099d16abac7,['controlsText'],label used above a listing of which buttons do what,Controls,Ohjaimet
 375,d41d8cd98f00b204e9800998ecf8427e,"['coopSelectWindow', 'activenessAllTimeInfoText']","description for why the ""Activity"" multiplier is disabled when viewing ""All-Time"" rankings
 Context Image: http://files.froemling.net/translateGuideImages/league.png",This does not apply to all-time rankings.,Tämä ei koske kaikkien aikojen sijoituksia.
 376,2dc6dbcf48193bc1a09d4b5676084cc0,"['coopSelectWindow', 'activenessInfoText']","A pop-up description for the ""Activity"" multiplier, which scales your power-ranking-points up or down depending on how much you have been active recently
@@ -561,16 +561,17 @@ Context Image: http://files.froemling.net/translateGuideImages/powerRankings.png
 other players in your league.
 
 Prizes are awarded to the top scoring
-players when tournament time expires.","Kilpaile huippupisteistä kanssa
-muita pelaajia liigassasi.
+players when tournament time expires.","Kilpaile huipputuloksista
+liigasi muiden pelaajien kanssa.
 
-Parhaat pisteet palkitaan
-pelaajia, kun turnausaika umpeutuu."
+Parhaat pistemiehet palkitaan,
+kun turnausaika päättyy."
 408,d41d8cd98f00b204e9800998ecf8427e,"['coopSelectWindow', 'welcome1Text']",First part of a welcome message shown the first time a user enters the single-player/co-op section.,"Welcome to ${LEAGUE}. You can improve your
 league rank by earning star ratings, completing
-achievements, and winning trophies in tournaments.","Tervetuloa ${LEAGUE}:een. Voit parantaa omaa
-liigasijoitus ansaitsemalla tähtiluokituksia, suorittamalla
-saavutuksia ja turnausten voittopalkintoja."
+achievements, and winning trophies in tournaments.","Tervetuloa ${LEAGUE}:een. Voit parantaa
+liigasijoitustasi ansaitsemalla tähtiarvioita,
+suorittamalla saavutuksia ja voittamalla
+turnauspokaaleja."
 409,d41d8cd98f00b204e9800998ecf8427e,"['coopSelectWindow', 'welcome2Text']",Second part of a welcome message shown the first time a user enters the single-player/co-op section.,"You can also earn tickets from many of the same activities.
 Tickets can be used to unlock new characters, maps, and
 mini-games, to enter tournaments, and more.","Voit myös ansaita lippuja monista samoista aktiviteeteista.
@@ -579,17 +580,17 @@ minipelejä, osallistua turnauksiin ja paljon muuta."
 410,d41d8cd98f00b204e9800998ecf8427e,"['coopSelectWindow', 'yourPowerRankingText']","label above the current player's power-ranking number
 Context Image: http://files.froemling.net/translateGuideImages/powerRankings.png",Your Power Ranking:,Tehosijoituksesi:
 411,d41d8cd98f00b204e9800998ecf8427e,['copyConfirmText'],,Copied to clipboard.,Kopioitu leikepöydälle.
-412,d41d8cd98f00b204e9800998ecf8427e,['copyOfText'],"used when naming copies of a playlist, etc... so ""Playlist"" might become ""Playlist Copy"" or whatnot",${NAME} Copy,${NAME} Kopioi
-413,d41d8cd98f00b204e9800998ecf8427e,['copyText'],as in 'copy & paste',Copy,Kopioida
-414,d41d8cd98f00b204e9800998ecf8427e,['createEditPlayerText'],"When joining a game, this is an option that allows creating or editing a player profile instead of using one of the existing ones",<Create/Edit Player>,<Luo/muokkaa soitinta>
-415,d41d8cd98f00b204e9800998ecf8427e,['createText'],"used on buttons which create new playlists, profiles, etc",Create,Luoda
-416,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'additionalAudioArtIdeasText']",,"Additional Audio, Early Artwork, and Ideas by ${NAME}","Lisäääntä, varhaista taidetta ja ideoita valmistajalta ${NAME}"
-417,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'additionalMusicFromText']",,Additional music from ${NAME},Lisää musiikkia kohteesta ${NAME}
-418,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'allMyFamilyText']",,All of my friends and family who helped play test,"Kaikki ystäväni ja perheeni, jotka auttoivat pelaamaan testiin"
+412,d41d8cd98f00b204e9800998ecf8427e,['copyOfText'],"used when naming copies of a playlist, etc... so ""Playlist"" might become ""Playlist Copy"" or whatnot",${NAME} Copy,${NAME} (kopio)
+413,d41d8cd98f00b204e9800998ecf8427e,['copyText'],as in 'copy & paste',Copy,Kopioi
+414,d41d8cd98f00b204e9800998ecf8427e,['createEditPlayerText'],"When joining a game, this is an option that allows creating or editing a player profile instead of using one of the existing ones",<Create/Edit Player>,<Luo/muokkaa pelaajaa>
+415,d41d8cd98f00b204e9800998ecf8427e,['createText'],"used on buttons which create new playlists, profiles, etc",Create,Luo
+416,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'additionalAudioArtIdeasText']",,"Additional Audio, Early Artwork, and Ideas by ${NAME}","Lisää ääntä, varhaista taidetta ja ideoita ${NAME}:lta"
+417,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'additionalMusicFromText']",,Additional music from ${NAME},Lisämusiikkia ${NAME}:lta
+418,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'allMyFamilyText']",,All of my friends and family who helped play test,"Kaikki ystäväni ja perheeni, jotka auttoivat testauksessa"
 419,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'codingGraphicsAudioText']",,"Coding, Graphics, and Audio by ${NAME}","Koodaus, grafiikka ja ääni ${NAME}:lta"
 420,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'languageTranslationsText']",,Language Translations:,Kielen käännökset:
 421,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'legalText']",,Legal:,Lakiasiat:
-422,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'publicDomainMusicViaText']",,Public-domain music via ${NAME},Julkisen verkkotunnuksen musiikkia ${NAME}:n kautta
+422,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'publicDomainMusicViaText']",,Public-domain music via ${NAME},Vapaasti lisensoitua musiikkia ${NAME}:n kautta
 423,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'softwareBasedOnText']",,This software is based in part on the work of ${NAME},Tämä ohjelmisto perustuu osittain ${NAME}:n työhön
 424,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'songCreditText']",,"${TITLE} Performed by ${PERFORMER}
 Composed by ${COMPOSER}, Arranged by ${ARRANGER}, Published by ${PUBLISHER},
@@ -600,15 +601,15 @@ ${SOURCE}:n luvalla"
 426,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'soundsText']",,Sounds (${SOURCE}):,Äänet (${SOURCE}):
 427,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'specialThanksText']",,Special Thanks:,Erityiset kiitokset:
 428,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'thanksEspeciallyToText']",,Thanks especially to ${NAME},Kiitos erityisesti ${NAME}:lle
-429,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'titleText']",,${APP_NAME} Credits,${APP_NAME} hyvitystä
-430,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'whoeverInventedCoffeeText']",,Whoever invented coffee,Kuka tahansa kahvin keksi
+429,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'titleText']",,${APP_NAME} Credits,${APP_NAME} – tekijät
+430,d41d8cd98f00b204e9800998ecf8427e,"['creditsWindow', 'whoeverInventedCoffeeText']",,Whoever invented coffee,Kuka ikinä kahvin keksi
 431,d41d8cd98f00b204e9800998ecf8427e,['currentStandingText'],For showing your current standing (rank) in a tournament.,Your current standing is #${RANK},Nykyinen sijoituksesi on #${RANK}
 432,d41d8cd98f00b204e9800998ecf8427e,['customizeText'],"title of a button to customize playlists, etc
 Context Image: http://files.froemling.net/translateGuideImages/freeForAllSelect.png",Customize...,Mukauta...
 433,d41d8cd98f00b204e9800998ecf8427e,['deathsTallyText'],,${COUNT} deaths,${COUNT} kuolemaa
 434,d41d8cd98f00b204e9800998ecf8427e,['deathsText'],,Deaths,Kuolemat
 435,d41d8cd98f00b204e9800998ecf8427e,['debugText'],,debug,debug
-436,d41d8cd98f00b204e9800998ecf8427e,"['debugWindow', 'reloadBenchmarkBestResultsText']","a warning shown when running the ""reload"" benchmark in Settings->Advanced->Benchmarks & Stress Tests",Note: it is recommended that you set Settings->Graphics->Textures to 'High' while testing this.,"Huomautus: on suositeltavaa, että asetat Asetukset->Grafiikka->Tektuurit arvoon 'Korkea' tätä testattaessa."
+436,d41d8cd98f00b204e9800998ecf8427e,"['debugWindow', 'reloadBenchmarkBestResultsText']","a warning shown when running the ""reload"" benchmark in Settings->Advanced->Benchmarks & Stress Tests",Note: it is recommended that you set Settings->Graphics->Textures to 'High' while testing this.,"Huomautus: on suositeltavaa asettaa Asetukset->Grafiikka->Tekstuurit arvoon 'Korkea' tätä testattaessa."
 437,d41d8cd98f00b204e9800998ecf8427e,"['debugWindow', 'runCPUBenchmarkText']","title of a button to test CPU performance in the game
 Context Image: http://files.froemling.net/translateGuideImages/benchmarks1.png",Run CPU Benchmark,Suorita CPU Benchmark
 438,d41d8cd98f00b204e9800998ecf8427e,"['debugWindow', 'runGPUBenchmarkText']","title of a button to test GPU (Graphics) performance in the game
@@ -627,12 +628,12 @@ Context Image: http://files.froemling.net/translateGuideImages/benchmarks1.png",
 448,d41d8cd98f00b204e9800998ecf8427e,"['debugWindow', 'totalReloadTimeText']",used in the media-reload benchmark when reporting the total time the test took,Total reload time: ${TIME} (see log for details),Uudelleenlatausaika yhteensä: ${TIME} (katso lisätietoja lokista)
 449,d41d8cd98f00b204e9800998ecf8427e,['defaultGameListNameText'],"The default game for a new game list; ${PLAYMODE} will be replaced with the translated play-mode (""Free-for-All"", ""Co-op"", ""Teams"", etc.)",Default ${PLAYMODE} Playlist,Oletussoittolista ${PLAYMODE}
 450,d41d8cd98f00b204e9800998ecf8427e,['defaultNewGameListNameText'],name used when making a new game playlist,My ${PLAYMODE} Playlist,Oma ${PLAYMODE}-soittolista
-451,d41d8cd98f00b204e9800998ecf8427e,['deleteText'],"generic label for a command to delete some item (playlist, soundtrack, player-profile, etc)",Delete,Poistaa
+451,d41d8cd98f00b204e9800998ecf8427e,['deleteText'],"generic label for a command to delete some item (playlist, soundtrack, player-profile, etc)",Delete,Poista
 452,d41d8cd98f00b204e9800998ecf8427e,['demoText'],"used for things such as a ""demo"" version of the game which gives a quick sample of gameplay",Demo,Demo
 453,d41d8cd98f00b204e9800998ecf8427e,['denyText'],,Deny,Kiellä
 454,d41d8cd98f00b204e9800998ecf8427e,['deprecatedText'],Label for something that is scheduled to be removed at some point in the future and generally should no longer be used.,Deprecated,Käytöstä poistettu
 455,d41d8cd98f00b204e9800998ecf8427e,['descriptionText'],,Description,Kuvaus
-456,d41d8cd98f00b204e9800998ecf8427e,['desktopResText'],resolution settings that specifies to use the desktop resolution,Desktop Res,Desktop Res
+456,d41d8cd98f00b204e9800998ecf8427e,['desktopResText'],resolution settings that specifies to use the desktop resolution,Desktop Res,Työpöydän tarkkuus
 457,d41d8cd98f00b204e9800998ecf8427e,['deviceAccountUpgradeText'],Shown as part of a UI that allows users to upgrade old device accounts to modern V2 accounts.,"Warning:
 You are signed in with a device account (${NAME}).
 Device accounts will be removed in a future update.
@@ -641,11 +642,11 @@ Olet kirjautunut sisään laitetilillä (${NAME}).
 Laitteen tilit poistetaan tulevassa päivityksessä.
 Päivitä V2-tiliin, jos haluat jatkaa edistymistäsi."
 458,d41d8cd98f00b204e9800998ecf8427e,['difficultyEasyText'],"Label for ""easy"" mode, in which co-op levels are easier to complete",Easy,Helppo
-459,d41d8cd98f00b204e9800998ecf8427e,['difficultyHardOnlyText'],Label shown over achievements/etc. that are available only when playing in hard mode.,Hard Mode Only,Vain kova tila
-460,d41d8cd98f00b204e9800998ecf8427e,['difficultyHardText'],"Label for ""hard"" mode, in which co-op levels are harder to complete",Hard,Kovaa
+459,d41d8cd98f00b204e9800998ecf8427e,['difficultyHardOnlyText'],Label shown over achievements/etc. that are available only when playing in hard mode.,Hard Mode Only,Vain vaikea tila
+460,d41d8cd98f00b204e9800998ecf8427e,['difficultyHardText'],"Label for ""hard"" mode, in which co-op levels are harder to complete",Hard,Vaikea
 461,d41d8cd98f00b204e9800998ecf8427e,['difficultyHardUnlockOnlyText'],A message shown when trying to play a campaign level that can only be unlocked in hard mode,"This level can only be unlocked in hard mode.
-Do you think you have what it takes!?!?!","Tämä taso voidaan avata vain kovassa tilassa.
-Luuletko, että sinulla on mitä tarvitset!?!?!"
+Do you think you have what it takes!?!?!","Tämä taso avautuu vain vaikealla tilalla.
+Uskotko, että sinulla on siihen tarvittava taito?!?"
 462,d41d8cd98f00b204e9800998ecf8427e,['directBrowserToURLText'],used when displaying URLs on systems with no built-in web browser,Please direct a web-browser to the following URL:,Ohjaa verkkoselain seuraavaan URL-osoitteeseen:
 463,d41d8cd98f00b204e9800998ecf8427e,['disabledText'],,Disabled,Ei käytössä
 464,d41d8cd98f00b204e9800998ecf8427e,['disableRemoteAppConnectionsText'],Label for a checkbox to enable blocking connections from the BombSquad Remote app,Disable Remote-App Connections,Poista etäsovellusyhteydet käytöstä
@@ -656,8 +657,8 @@ Luuletko, että sinulla on mitä tarvitset!?!?!"
 Join our Discord and find new friends!","Haluatko etsiä uusia pelaajia?
 Liity Discordiin ja löydä uusia ystäviä!"
 469,d41d8cd98f00b204e9800998ecf8427e,['discordJoinText'],,Join the Discord,Liity Discordiin
-470,d41d8cd98f00b204e9800998ecf8427e,['doneText'],"standard ""Done"" button in windows/dialogs",Done,Tehty
-471,d41d8cd98f00b204e9800998ecf8427e,['drawText'],shown when a game is a draw (tie),Draw,Piirrä
+470,d41d8cd98f00b204e9800998ecf8427e,['doneText'],"standard ""Done"" button in windows/dialogs",Done,Valmis
+471,d41d8cd98f00b204e9800998ecf8427e,['drawText'],shown when a game is a draw (tie),Draw,Tasapeli
 472,d41d8cd98f00b204e9800998ecf8427e,['duplicateText'],"generic label for a command to duplicate some item (playlist, soundtrack, player-profile, etc)",Duplicate,Kopioi
 473,d41d8cd98f00b204e9800998ecf8427e,"['editGameListWindow', 'addGameText']","label for the button to add a game in the playlist-editor
 Context Image: http://files.froemling.net/translateGuideImages/editPlaylist.png","Add
@@ -691,12 +692,12 @@ ja kuvake tilisi perusteella.
 
 ${ICONS}
 
-Luo mukautettuja profiileja käytettäväksi
-eri nimiä tai mukautettuja kuvakkeita."
+Luo mukautettuja profiileja
+käyttääksesi eri nimiä tai omia kuvakkeita."
 484,d41d8cd98f00b204e9800998ecf8427e,"['editProfileWindow', 'accountProfileText']",name of the special player-profile that uses your signed-in account name as your player name,(account profile),(tilin profiili)
 485,d41d8cd98f00b204e9800998ecf8427e,"['editProfileWindow', 'availableText']","when reserving a global player profile name, this is shown if your name is available","The name ""${NAME}"" is available.","Nimi ""${NAME}"" on saatavilla."
 486,d41d8cd98f00b204e9800998ecf8427e,"['editProfileWindow', 'characterText']","label below the character-select button in the profile-editor
-Context Image: http://files.froemling.net/translateGuideImages/profile.png",character,merkki
+Context Image: http://files.froemling.net/translateGuideImages/profile.png",character,hahmo
 487,d41d8cd98f00b204e9800998ecf8427e,"['editProfileWindow', 'checkingAvailabilityText']",shown when checking the availability of a global profile name,"Checking availability for ""${NAME}""...","Tarkistetaan ""${NAME}"" saatavuutta..."
 488,d41d8cd98f00b204e9800998ecf8427e,"['editProfileWindow', 'colorText']",the label for the player-profile primary color,color,väri
 489,d41d8cd98f00b204e9800998ecf8427e,"['editProfileWindow', 'getMoreCharactersText']","label for a button in the character-selector to go to the store
