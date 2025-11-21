@@ -2067,17 +2067,7 @@ Context Image: http://files.froemling.net/translateGuideImages/tokenStore.png",B
 1284,d41d8cd98f00b204e9800998ecf8427e,"['tokens', 'tokenPack2Text']",Name for the second of four token pack sizes.,Medium Token Pack,Keskikokoinen token-paketti
 1285,d41d8cd98f00b204e9800998ecf8427e,"['tokens', 'tokenPack3Text']",Name for the third of four token pack sizes.,Large Token Pack,Suuri token-paketti
 1286,d41d8cd98f00b204e9800998ecf8427e,"['tokens', 'tokenPack4Text']",Name for the fourth (the largest) of four token pack sizes.,Jumbo Token Pack,Jätti token-paketti
-1287,d41d8cd98f00b204e9800998ecf8427e,"['tokens', 'tokensDescriptionText']",,"Tokens are used to speed up chest unlocks
-and for other game and account features.",
-
-You can win tokens in the game or buy them
-in packs. Or buy a Gold Pass for infinite
-tokens and never hear about them again.","Tokeneilla nopeutat arkkujen aukeamista
-ja muita peli- ja tiliominaisuuksia.",
-
-Voit voittaa tokeneita pelissä tai ostaa niitä
-paketeissa. Tai hanki Gold Pass rajattomiin tokeneihin
-eikä sinun tarvitse miettiä niitä enää.
+1287,d41d8cd98f00b204e9800998ecf8427e,"['tokens', 'tokensDescriptionText']",,"Tokens are used to speed up chest unlocks and for other game and account features. You can win tokens in the game or buy them in packs. Or buy a Gold Pass for infinite tokens and never hear about them again.","Tokeneilla nopeutat arkkujen aukeamista ja muita peli- ja tiliominaisuuksia. Voit voittaa tokeneita pelissä tai ostaa niitä paketeissa. Tai hanki Gold Pass rajattomiin tokeneihin eikä sinun tarvitse miettiä niitä enää."
 1288,d41d8cd98f00b204e9800998ecf8427e,"['tokens', 'youHaveGoldPassText']","Shown to users with a Gold Pass when they go to the get-tokens page, explaining why there are no token packs there.","You have a Gold Pass.
 All token purchases are free.
 Enjoy!","Sinulla on Gold Pass.
