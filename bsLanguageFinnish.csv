@@ -98,9 +98,9 @@ Context Image: http://files.froemling.net/translateGuideImages/signOut.png",You 
 59,2b9bf647897c6c08130d21edf43e982d,"['achievements', 'Flawless Victory', 'descriptionFull']",shown in places like GameCenter or GameCircle when this achievement is not yet complete.,Win ${LEVEL} without getting hit,Voita taso ${LEVEL} ilman vihollisen osumaa
 60,d0fad7a3ec431a31bc2fab00efaeabf1,"['achievements', 'Flawless Victory', 'descriptionFullComplete']",shown in places like GameCenter or GameCircle when this achievement has been completed.,Won ${LEVEL} without getting hit,Voitettu taso ${LEVEL} ilman vihollisen osumaa
 61,dc7a2de4cc32b5f204d5d65faa9a0b38,"['achievements', 'Flawless Victory', 'name']",Name of this achievement.,Flawless Victory,Vahingoton voitto
-62,d41d8cd98f00b204e9800998ecf8427e,"['achievements', 'Free Loader', 'descriptionFull']",shown in places like GameCenter or GameCircle when this achievement is not yet complete.,Start a Free-For-All game with 2+ players,Aloita ilmainen kaikille -peli 2+ pelaajalla
-63,d41d8cd98f00b204e9800998ecf8427e,"['achievements', 'Free Loader', 'descriptionFullComplete']",shown in places like GameCenter or GameCircle when this achievement has been completed.,Started a Free-For-All game with 2+ players,Aloitti Free-For-All-pelin 2+ pelaajalla
-64,d41d8cd98f00b204e9800998ecf8427e,"['achievements', 'Free Loader', 'name']",Name of this achievement.,Free Loader,Ilmainen latauslaite
+62,d41d8cd98f00b204e9800998ecf8427e,"['achievements', 'Free Loader', 'descriptionFull']",shown in places like GameCenter or GameCircle when this achievement is not yet complete.,Start a Free-For-All game with 2+ players,Aloita kaikki vastaan kaikki -peli vähintään kahdella pelaajalla
+63,d41d8cd98f00b204e9800998ecf8427e,"['achievements', 'Free Loader', 'descriptionFullComplete']",shown in places like GameCenter or GameCircle when this achievement has been completed.,Started a Free-For-All game with 2+ players,Aloitti kaikki vastaan kaikki -pelin vähintään kahdella pelaajalla
+64,d41d8cd98f00b204e9800998ecf8427e,"['achievements', 'Free Loader', 'name']",Name of this achievement.,Free Loader,Vapaamatkustaja
 65,3e9cd9c73b093fe8de0df490a4bdb23d,"['achievements', 'Gold Miner', 'description']",shown in-game when this achievement is not yet complete; does not need to include the level name since it is shown *during* that level,Kill 6 bad guys with land-mines,Tapa 6 pahaa tyyppiä maamiinoilla
 66,d2433e0200eaaae9c3e4b40e33c86ebe,"['achievements', 'Gold Miner', 'descriptionComplete']",shown in-game once this achievement has been completed; does not need to include the level name since it is shown *during* that level,Killed 6 bad guys with land-mines,Tapettu 6 pahaa tyyppiä maamiinoilla
 67,bc43daa1307a9930af0e77ae429e29fe,"['achievements', 'Gold Miner', 'descriptionFull']",shown in places like GameCenter or GameCircle when this achievement is not yet complete.,Kill 6 bad guys with land-mines on ${LEVEL},Tapa 6 pahaa tyyppiä maamiinoilla tasolla ${LEVEL}
@@ -849,7 +849,7 @@ Context Image: http://files.froemling.net/translateGuideImages/playlists.png",Cu
 581,d41d8cd98f00b204e9800998ecf8427e,['gamesToText'],"shown at the end of a game series, as in:  BLUE WINS - 4 games to 2",${WINCOUNT} games to ${LOSECOUNT},${WINCOUNT} peliä käyttäjälle ${LOSECOUNT}
 582,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'aboutDescriptionLocalMultiplayerExtraText']","extra bit of description in the gather window (used to gather a party to play on the network/internet) on systems that support local multiplayer
 Context Image: http://files.froemling.net/translateGuideImages/gatherAbout.png","Remember: any device in a party can have more
-than one player if you have enough controllers.","Muista: missä tahansa puolueen laitteessa voi olla enemmän
+than one player if you have enough controllers.","Muista: missä tahansa ryhmän laitteessa voi olla useampi
 kuin yksi pelaaja, jos sinulla on tarpeeksi ohjaimia."
 583,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'aboutDescriptionText']","main portion of the description in the gather window (used to gather a party to play on the network/internet)
 Context Image: http://files.froemling.net/translateGuideImages/gatherAbout.png","Use these tabs to assemble a party.
@@ -859,16 +859,16 @@ with your friends across different devices.
 
 Use the ${PARTY} button at the top right to
 chat and interact with your party.
-(on a controller, press ${BUTTON} while in a menu)","Käytä näitä välilehtiä juhlien kokoamiseen.
+(on a controller, press ${BUTTON} while in a menu)","Käytä näitä välilehtiä kootaksesi ryhmän.
 
-Juhlien avulla voit pelata pelejä ja turnauksia
+Ryhmäsi avulla voit pelata pelejä ja turnauksia
 ystäviesi kanssa eri laitteilla.
 
 Käytä oikeassa yläkulmassa olevaa ${PARTY}-painiketta
-jutella ja olla vuorovaikutuksessa puolueesi kanssa.
+jutteluun ja vuorovaikutukseen ryhmäsi kanssa.
 (paina ohjaimessa ${BUTTON} ollessasi valikossa)"
 584,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'aboutText']","title for the ""About"" tab in the gather window (used to gather a party to play on the network/internet)
-Context Image: http://files.froemling.net/translateGuideImages/gatherAbout.png",About,Noin
+Context Image: http://files.froemling.net/translateGuideImages/gatherAbout.png",About,Tietoja
 585,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'addressFetchErrorText']","shown when there is an error during a joinable-test, address-lookup, etc.
 Context Image: http://files.froemling.net/translateGuideImages/gatherManual.png",<error fetching addresses>,<virhe osoitteiden haussa>
 586,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'appInviteMessageText']",Message used in an invitation to another player where they will receive some tickets for installing/trying the game,${NAME} sent you ${COUNT} tickets in ${APP_NAME},${NAME} lähetti sinulle ${COUNT} lippua ${APP_NAME}:ssa
@@ -891,10 +891,10 @@ Context Image: http://files.froemling.net/translateGuideImages/privateHost5.png"
 596,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'copyCodeText']","Label for a button which copies a party-code to the clipboard so that it can be pasted into messages to friends/etc.
 Context Image: http://files.froemling.net/translateGuideImages/privateHost5.png",Copy Code,Kopioi koodi
 597,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'dedicatedServerInfoText']",Part of the host-public-party tab saying that using a dedicated server is the best way to go,"For best results, set up a dedicated server. See bombsquadgame.com/server to learn how.",Parhaan tuloksen saamiseksi määritä oma palvelin. Katso lisätietoja osoitteesta bombsquadgame.com/server.
-598,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'descriptionShortText']",,Use the gather window to assemble a party.,Käytä kokoontumisikkunaa juhlien kokoamiseen.
+598,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'descriptionShortText']",,Use the gather window to assemble a party.,Käytä kokoontumisikkunaa ryhmän kokoamiseen.
 599,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'disconnectClientsText']",shown in a confirmation-window before doing something (such as joining a new party) that will disconnect your old party,"This will disconnect the ${COUNT} player(s)
 in your party. Are you sure?","Tämä katkaisee yhteyden ${COUNT} soittimeen
-teidän puolueessanne. Oletko varma?"
+ryhmässäsi. Oletko varma?"
 600,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'earnTicketsForRecommendingAmountText']",A simple message saying that you and a friend will get free tickets if you share the game and they try it,"Friends will receive ${COUNT} tickets if they try the game
 (and you will receive ${YOU_COUNT} for each who does)","Ystävät saavat ${COUNT} lippua, jos he kokeilevat peliä
 (ja saat ${YOU_COUNT} jokaisesta, joka tekee)"
@@ -965,15 +965,15 @@ try it and they'll receive ${COUNT} free tickets.","Eikö ystävillä ole peliä
 kokeile sitä ja he saavat ${COUNT} ilmaista lippua."
 627,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'inviteFriendsText']",Label for a button to invite friends to try the game,Invite Friends,Kutsu ystäviä
 628,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'joinPublicPartyDescriptionText']","Description for a section for joining ""Public"" parties, which are open to anyone on the internet.
-Context Image: http://files.froemling.net/translateGuideImages/publicHost.png",Join a Public Party,Liity julkiseen puolueeseen
+Context Image: http://files.froemling.net/translateGuideImages/publicHost.png",Join a Public Party,Liity julkiseen ryhmään
 629,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'localNetworkDescriptionText']","description for the ""Nearby"" tab in the gather window which is used to find parties on the local network or via bluetooth or other direct connection methods.
 Context Image: http://files.froemling.net/translateGuideImages/gatherNearby.png","Join a Nearby Party (LAN, Bluetooth, etc.)","Liity Nearby Party -tapahtumaan (LAN, Bluetooth jne.)"
 630,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'localNetworkText']","title for the Local Network tab in the gather window (used to gather a party to play on the network/internet)
 Context Image: http://files.froemling.net/translateGuideImages/gatherLocalNetwor.png",Local Network,Paikallinen verkko
 631,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'makePartyPrivateText']","label for a button in the public party screen that makes your party no longer publicly listed on the internet
-Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",Make My Party Private,Tee puolueestani yksityinen
+Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",Make My Party Private,Tee ryhmästäni yksityinen
 632,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'makePartyPublicText']","label for a button in the public party screen that makes your party publicly listed on the internet
-Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",Make My Party Public,Tee puolueeni julkinen
+Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",Make My Party Public,Tee ryhmästäni julkinen
 633,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'manualAddressText']","label for the Address field in the gather window (used to gather a party to play on the network/internet)
 Context Image: http://files.froemling.net/translateGuideImages/gatherManual.png",Address,Osoite
 634,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'manualConnectText']","label for the button to connect to the specified address in the gather window (used to gather a party to play on the network/internet)
@@ -998,42 +998,42 @@ Context Image: http://files.froemling.net/translateGuideImages/gatherManual.png"
 644,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'nearbyText']","Label for a section showing parties near to the user (on the local network, available via bluetooth, etc). This replaces the old ""Local Network"" tab name.",Nearby,Lähistöllä
 645,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'noConnectionText']","shown next to the access checks at the bottom of the gather window (used to gather a party to play on the network/internet) when you have no internet connection
 Context Image: http://files.froemling.net/translateGuideImages/gatherManual.png",<no connection>,<ei yhteyttä>
-646,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'noPartiesAddedText']",,No Parties Added,Ei lisättyjä osapuolia
+646,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'noPartiesAddedText']",,No Parties Added,Ei ryhmiä lisättynä
 647,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'otherVersionsText']","label below a button for something that *doesn't* apply to the Google Play version of the game, but rather all other versions",(other versions),(muut versiot)
 648,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyCodeText']","Label for a code that can be entered to join a private party
-Context Image: http://files.froemling.net/translateGuideImages/privateJoin.png",Party Code,Puolueen koodi
-649,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyInviteAcceptText']","label for the ""accept"" button in the ""accept/decline"" popup you get when someone invites you to their party",Accept,Hyväksyä
+Context Image: http://files.froemling.net/translateGuideImages/privateJoin.png",Party Code,Ryhmän koodi
+649,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyInviteAcceptText']","label for the ""accept"" button in the ""accept/decline"" popup you get when someone invites you to their party",Accept,Hyväksy
 650,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyInviteDeclineText']","label for the ""decline"" button in the ""accept/decline"" popup you get when someone invites you to their party",Decline,Hylkää
-651,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyInviteIgnoreText']",label for a button to ignore an incoming invite to join a party,Ignore,Sivuuttaa
+651,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyInviteIgnoreText']",label for a button to ignore an incoming invite to join a party,Ignore,Ohita
 652,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyInviteText']","main text in the ""accept/decline"" popup you get when someone invites you to their party","${NAME} has invited
 you to join their party!","${NAME} on kutsunut
-voit liittyä heidän puolueeseensa!"
+sinut liittymään heidän ryhmäänsä!"
 653,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyNameText']","label for editing the name of your party
-Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",Party Name,Puolueen nimi
+Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",Party Name,Ryhmän nimi
 654,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyServerRunningText']","Status message for when a party server is online and running.
-Context Image: http://files.froemling.net/translateGuideImages/privateHost5.png",Your party server is running.,Juhlapalvelimesi on käynnissä.
-655,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partySizeText']",Label for the column in the public-party window that shows the current size of the party,party size,puolueen koko
+Context Image: http://files.froemling.net/translateGuideImages/privateHost5.png",Your party server is running.,Ryhmäpalvelimesi on käynnissä.
+655,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partySizeText']",Label for the column in the public-party window that shows the current size of the party,party size,ryhmän koko
 656,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyStatusCheckingText']","info shown at the bottom of the public party screen while checking the status of your party
 Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",checking status...,tarkistetaan tilaa...
 657,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyStatusJoinableText']","status text shown at the bottom of the public party screen when your party can be joined from the internet
-Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",your party is now joinable from the internet,puolueeseen voi nyt liittyä Internetin kautta
+Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",your party is now joinable from the internet,ryhmääsi voi nyt liittyä internetin kautta
 658,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyStatusNoConnectionText']","status text shown at the bottom of the public party screen when you have no internet connection
 Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",unable to connect to server,ei voi muodostaa yhteyttä palvelimeen
 659,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyStatusNotJoinableText']","status text shown at the bottom of the public party screen when your party can not be joined from the internet
-Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",your party is not joinable from the internet,puolueellesi ei voi liittyä Internetin kautta
+Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",your party is not joinable from the internet,ryhmääsi ei voi liittyä internetin kautta
 660,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'partyStatusNotPublicText']","status text shown at the bottom of the public party screen when your party is not set as public
-Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",your party is not public,puolueesi ei ole julkinen
+Context Image: http://files.froemling.net/translateGuideImages/publicParty.png",your party is not public,ryhmäsi ei ole julkinen
 661,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'pingText']",label for the number showing how much delay there is between you and a party/game,ping,ping
 662,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'portText']",label for a control specifying which port to use when connecting to a network game,Port,Portti
 663,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'privatePartyCloudDescriptionText']","Describes how private parties are run in the cloud (on servers out on the internet) and so they don't require configuring one's router to allow connections through like traditional party hosting does.
-Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Private parties run on dedicated cloud servers; no router configuration required.,Yksityiset osapuolet toimivat omistetuilla pilvipalvelimilla; reitittimen konfigurointia ei vaadita.
+Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Private parties run on dedicated cloud servers; no router configuration required.,Yksityiset ryhmät toimivat omistetuilla pilvipalvelimilla; reititintä ei tarvitse säätää.
 664,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'privatePartyHostText']","Title for the section allowing hosting private parties
-Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Host a Private Party,Järjestä yksityistilaisuus
+Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Host a Private Party,Järjestä yksityinen ryhmä
 665,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'privatePartyJoinText']","Title for the section allowing joining private parties
-Context Image: http://files.froemling.net/translateGuideImages/privateJoin.png",Join a Private Party,Liity yksityiseen juhlaan
+Context Image: http://files.froemling.net/translateGuideImages/privateJoin.png",Join a Private Party,Liity yksityiseen ryhmään
 666,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'privateText']",Label for a section allowing creating or joining private parties (cloud-hosted parties accessed via private codes shared with friends),Private,Yksityinen
 667,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'publicHostRouterConfigText']","Explains how public hosting generally requires one to configure their router so people can connect in to their device. Also mention that the newer private-hosting stuff is easier because it uses dedicated cloud servers.
-Context Image: http://files.froemling.net/translateGuideImages/publicHost.png","This may require configuring port-forwarding on your router. For an easier option, host a private party.",Tämä saattaa edellyttää portin edelleenlähetyksen määrittämistä reitittimessäsi. Järjestä yksityiset juhlat helpommin.
+Context Image: http://files.froemling.net/translateGuideImages/publicHost.png","This may require configuring port-forwarding on your router. For an easier option, host a private party.",Tämä saattaa edellyttää portinohjausta reitittimessäsi. Helpoiten järjestät yksityisen ryhmän.
 668,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'publicText']","Label for a section listing publicly joinable parties (a replacement for the old ""Internet"" tab name).",Public,Julkinen
 669,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'requestingAPromoCodeText']",Message printed while requesting a new code from the server,Requesting a code...,Koodia pyydetään...
 670,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'sendDirectInvitesText']","title for a button which sends out links to install the app
@@ -1057,10 +1057,10 @@ and connect to each other.  Once all devices are connected, you can form parties
 here using the 'Local Network' tab, just the same as with a regular Wi-Fi network.
 
 For best results, the Wi-Fi Direct host should also be the ${APP_NAME} party host.","Jos kaikissa laitteissa on ""Wi-Fi Direct"" -paneeli, niiden pitäisi pystyä etsimään sitä
-ja yhdistävät toisiinsa.  Kun kaikki laitteet on yhdistetty, voit muodostaa osapuolia
-tässä Paikallinen verkko -välilehdellä, aivan kuten tavallisessa Wi-Fi-verkossa.
+ ja yhdistävät toisiinsa.  Kun kaikki laitteet on yhdistetty, voit muodostaa ryhmiä
+ tässä Paikallinen verkko -välilehdellä, aivan kuten tavallisessa Wi-Fi-verkossa.
 
-Parhaan tuloksen saavuttamiseksi Wi-Fi Direct -isäntä on myös ${APP_NAME}-juhlien isäntä."
+ Parhaan tuloksen saavuttamiseksi Wi-Fi Direct -isännän kannattaa olla myös ${APP_NAME}-ryhmän isäntä."
 679,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'wifiDirectDescriptionTopText']","top portion of the description in the ""Wi-Fi Direct"" tab in the gather window (used to gather a party to play on the network/internet)
 Context Image: http://files.froemling.net/translateGuideImages/gatherWiFiDirect.png","Wi-Fi Direct can be used to connect Android devices directly without
 needing a Wi-Fi network. This works best on Android 4.2 or newer.
@@ -1226,7 +1226,7 @@ Context Image: http://files.froemling.net/translateGuideImages/help3.png",Triple
 746,d41d8cd98f00b204e9800998ecf8427e,"['helpWindow', 'powerupCurseDescriptionText']","description for the curse powerup the help window
 Context Image: http://files.froemling.net/translateGuideImages/help4.png","You probably want to avoid these.
  ...or do you?","Haluat todennäköisesti välttää näitä.
- ...vai sinä?"
+ ...vai haluatko sittenkin?"
 747,d41d8cd98f00b204e9800998ecf8427e,"['helpWindow', 'powerupCurseNameText']","name for the curse powerup the help window
 Context Image: http://files.froemling.net/translateGuideImages/help4.png",Curse,Kirous
 748,d41d8cd98f00b204e9800998ecf8427e,"['helpWindow', 'powerupHealthDescriptionText']","description for the health powerup the help window
@@ -1324,10 +1324,10 @@ Tyhjennä tilaa ja yritä uudelleen."
 782,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'cantKickHostError']",Error message you get if you try to kick the party/game host,You can't kick the host.,Et voi potkia isäntiä.
 783,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'chatBlockedText']",Message the server sends when someone has been chat-blocked (for doing things like chat-spamming),${NAME} is chat-blocked for ${TIME} seconds.,${NAME} on chat-estetty ${TIME} sekunniksi.
 784,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectedToGameText']",Shown when connecting to a game/party that has a name,Joined '${NAME}',Liittyi ryhmään ${NAME}
-785,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectedToPartyText']",printed onscreen when you join someone's party (a party is a group used for network-play),Joined ${NAME}'s party!,Liityi käyttäjän ${NAME} juhliin!
+785,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectedToPartyText']",printed onscreen when you join someone's party (a party is a group used for network-play),Joined ${NAME}'s party!,Liityi käyttäjän ${NAME} ryhmään!
 786,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectingToPartyText']",printed onscreen when you first start connecting to someone's party (a party is a group used for network-play),Connecting...,Yhdistetään...
-787,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectionFailedHostAlreadyInPartyText']",an error message printed when failing to join a party,Connection failed; host is in another party.,Yhteys epäonnistui; isäntä on toisessa puolueessa.
-788,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectionFailedPartyFullText']",Message the server sends when you try to join a party that is already full,Connection failed; the party is full.,Yhteys epäonnistui; juhlat ovat täynnä.
+787,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectionFailedHostAlreadyInPartyText']",an error message printed when failing to join a party,Connection failed; host is in another party.,Yhteys epäonnistui; isäntä on toisessa ryhmässä.
+788,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectionFailedPartyFullText']",Message the server sends when you try to join a party that is already full,Connection failed; the party is full.,Yhteys epäonnistui; ryhmä on täynnä.
 789,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectionFailedText']",an error message printed when failing to join a party (generic),Connection failed.,Yhteys epäonnistui.
 790,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'connectionFailedVersionMismatchText']",an error message printed when trying to connect to someone running a different version of the game,"Connection failed; host is running a different version of the game.
 Make sure you are both up-to-date and try again.","Yhteys epäonnistui; isäntä käyttää eri versiota pelistä.
@@ -1361,7 +1361,7 @@ Varmista, että olette molemmat ajan tasalla ja yritä uudelleen."
 811,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'invitationSentText']",printed when first inviting a player to your party,Invitation sent.,Kutsu lähetetty.
 812,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'invitationsSentText']",printed when first inviting multiple players to your party,${COUNT} invitations sent.,${COUNT} kutsua lähetetty.
 813,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'joinedPartyInstructionsText']",instructions printed after someone joins your party,"Someone has joined your party.
-Go to 'Play' to start a game.","Joku on liittynyt puolueeseesi.
+ Go to 'Play' to start a game.","Joku on liittynyt ryhmääsi.
 Aloita peli siirtymällä kohtaan ""Pelaa""."
 814,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'keyboardText']",,Keyboard,Näppäimistö
 815,d41d8cd98f00b204e9800998ecf8427e,"['internal', 'kickIdlePlayersKickedText']",Shown when a player has been kicked for being idle,Kicking ${NAME} for being idle.,Potkiminen ${NAME} käyttämättömänä olemisesta.
@@ -1492,9 +1492,9 @@ Haluat ehkä ottaa ne käyttöön kohdassa Asetukset -> Ohjaimet"
 Context Image: http://files.froemling.net/translateGuideImages/menu.png",(Just ${NAME}),(vain ${NAME})
 910,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'leaveGameText']","the button for having the current player leave the game
 Context Image: http://files.froemling.net/translateGuideImages/menu.png",Leave Game,Poistu pelistä
-911,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'leavePartyConfirmText']",confirmation text when leaving a party,Really leave the party?,Poistutko todella juhlista?
+911,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'leavePartyConfirmText']",confirmation text when leaving a party,Really leave the party?,Poistutko todella ryhmästä?
 912,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'leavePartyText']","button in the main menu to leave the current party when connected to a party
-Context Image: http://files.froemling.net/translateGuideImages/menuParty.png",Leave Party,Poistu puolueesta
+Context Image: http://files.froemling.net/translateGuideImages/menuParty.png",Leave Party,Poistu ryhmästä
 913,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'quitText']",label for button that quits out of the game,Quit,Lopettaa
 914,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'resumeText']",label for main menu button to resume the game when it is paused,Resume,Jatkaa
 915,d41d8cd98f00b204e9800998ecf8427e,"['mainMenu', 'settingsText']",,Settings,Asetukset
@@ -1594,7 +1594,7 @@ Context Image: http://files.froemling.net/translateGuideImages/party.png",(host)
 989,d41d8cd98f00b204e9800998ecf8427e,"['partyWindow', 'sendText']","label for the chat ""send"" button in the party window
 Context Image: http://files.froemling.net/translateGuideImages/party.png",Send,Lähetä
 990,d41d8cd98f00b204e9800998ecf8427e,"['partyWindow', 'titleText']","title for the party window
-Context Image: http://files.froemling.net/translateGuideImages/party.png",Your Party,Sinun puolueesi
+Context Image: http://files.froemling.net/translateGuideImages/party.png",Your Party,Sinun ryhmäsi
 991,d41d8cd98f00b204e9800998ecf8427e,['pausedByHostText'],printed on a client when connected to a host who has paused the game,(paused by host),(isäntä keskeyttää)
 992,d41d8cd98f00b204e9800998ecf8427e,['perfectWaveText'],shown when completing a wave without dying or missing an enemy or whatever,Perfect Wave!,Täydellinen aalto!
 993,d41d8cd98f00b204e9800998ecf8427e,['pickUpText'],Name of the 'Pick Up' button.,Pick Up,Poimia
@@ -1629,7 +1629,7 @@ Context Image: http://files.froemling.net/translateGuideImages/freeForAllSelect.
 1010,d41d8cd98f00b204e9800998ecf8427e,['playlistText'],"label for controls for selecting a game playlist
 Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Playlist,Soittolista
 1011,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'coopText']",cooperative mode: 1-4 players fighting against the computer,Co-op,Co-op
-1012,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'freeForAllText']",every-man-for-himself play,Free-for-All,Kaikille ilmainen
+1012,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'freeForAllText']",every-man-for-himself play,Free-for-All,Kaikki vastaan kaikki
 1013,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'multiTeamText']","multi-team mode: several small teams facing off, such as 4 teams with 2 players each",Multi-Team,Multi-Team
 1014,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'singlePlayerCoopText']","an alternate label for cooperative mode that emphasizes the fact that it can be played single-player (if there is no good translation for single player, feel free to leave this the same as Co-op)",Single Player / Co-op,Yksinpeli / Yhteistyö
 1015,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'teamsText']",standard 2-teams mode: exactly 2 teams with any number of players on each.,Teams,Joukkueet
@@ -1979,7 +1979,7 @@ Ota yhteyttä ${EMAIL}, jos tämä on virhe."
 Context Image: http://files.froemling.net/translateGuideImages/sale.png",SALE,MYYNTI
 1235,d41d8cd98f00b204e9800998ecf8427e,"['store', 'searchText']",,Search,Haku
 1236,d41d8cd98f00b204e9800998ecf8427e,"['store', 'starterPackText']",Name for a group of skins or other things that can be purchased together - generally meant for new players.,Starter Pack,Aloituspaketti
-1237,d41d8cd98f00b204e9800998ecf8427e,"['store', 'teamsFreeForAllGamesText']",a header in the store for games that can be played in either Teams or Free-for-All mode,Teams / Free-for-All Games,Joukkueet / Ilmaiset pelit kaikille
+1237,d41d8cd98f00b204e9800998ecf8427e,"['store', 'teamsFreeForAllGamesText']",a header in the store for games that can be played in either Teams or Free-for-All mode,Teams / Free-for-All Games,Joukkueet / kaikki vastaan kaikki -pelit
 1238,d41d8cd98f00b204e9800998ecf8427e,"['store', 'totalWorthText']","line of text showing the total value for some set of items
 Context Image: http://files.froemling.net/translateGuideImages/bsPro.png",*** ${TOTAL_WORTH} value! ***,*** ${TOTAL_WORTH} arvo! ***
 1239,d41d8cd98f00b204e9800998ecf8427e,"['store', 'upgradeQuestionText']",A window can pop up asking the user if they want to upgrade to BombSquad Pro - this is the title at the top of the window,Upgrade?,Päivitys?
