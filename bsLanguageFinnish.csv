@@ -347,14 +347,14 @@ Ansaitse arkkuja pelaamalla kampanjatasoja,
 turnauksiin sijoittuminen ja suorittaminen
 saavutuksia."
 283,d41d8cd98f00b204e9800998ecf8427e,"['chests', 'slotsFullWarningText']",,"WARNING: All your chest slots are full.
-Any chests you earn this game will be lost.","VAROITUS: Kaikki rintakehäsi ovat täynnä.
+Any chests you earn this game will be lost.","VAROITUS: kaikki arkkusi ovat täynnä.
 Kaikki tässä pelissä ansaitsemasi arkut menetetään."
 284,d41d8cd98f00b204e9800998ecf8427e,"['chests', 'slotText']","Title describing an empty slot where a chest can go.
-Context Image: http://files.froemling.net/translateGuideImages/chestslot.png",Chest Slot ${NUM},Rintapaikka ${NUM}
+Context Image: http://files.froemling.net/translateGuideImages/chestslot.png",Chest Slot ${NUM},Arkkupaikka ${NUM}
 285,d41d8cd98f00b204e9800998ecf8427e,"['chests', 'unlocksInText']","Label shown above the time countdown for when a chest will unlock.
-Context Image: http://files.froemling.net/translateGuideImages/chestOpenNow.png",Unlocks In,Avautuu sisään
+Context Image: http://files.froemling.net/translateGuideImages/chestOpenNow.png",Unlocks In,Aukeaa ajassa
 286,6ab650acf08edd01b8962403a7146905,['choosingPlayerText'],a player's name while choosing their player; shown in the main menu header if they hit start/menu,<choosing player>,<valitaan pelaajaa>
-287,d41d8cd98f00b204e9800998ecf8427e,['claimText'],Label for a button which claims some prize,Claim,Väite
+287,d41d8cd98f00b204e9800998ecf8427e,['claimText'],Label for a button which claims some prize,Claim,Lunasta
 288,d41d8cd98f00b204e9800998ecf8427e,['codesExplainText'],"Explains what codes are used for in settings->advanced->enter code
 Context Image: http://files.froemling.net/translateGuideImages/advancedEnterCode.png","Codes are provided by the developer to
 diagnose and correct account issues.","Koodit toimittaa kehittäjä osoitteeseen
@@ -761,16 +761,16 @@ Soundtrack","Uusi
 Soundtrack"
 523,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'selectAPlaylistText']",,Select A Playlist,Valitse Soittolista
 524,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'selectASourceText']","header for a UI where you select between music options: iTunes playlist, internal music, single songs, etc",Music Source,Musiikin lähde
-525,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'testText']",label for the button that tests (plays) a soundtrack entry,test,testata
+525,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'testText']",label for the button that tests (plays) a soundtrack entry,test,Testaa
 526,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'titleText']","title for the soundtrack-editor window
 Context Image: http://files.froemling.net/translateGuideImages/soundtracks.png",Soundtracks,Ääniraidat
 527,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'useDefaultGameMusicText']",name of a soundtrack option for using the standard game music,Default Game Music,Pelin oletusmusiikki
 528,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'useITunesPlaylistText']",soundtrack option to use a playlist from the Music app (used to be iTunes),Music App Playlist,Musiikkisovellusten soittolista
 529,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'useMusicFileText']","soundtrack option to use a music file (an mp3, wav, etc) for game music","Music File (mp3, etc)",Musiikkitiedosto (mp3 jne.)
 530,d41d8cd98f00b204e9800998ecf8427e,"['editSoundtrackWindow', 'useMusicFolderText']","soundtrack option to use a whole folder of music files (mp3, etc) as game music",Folder of Music Files,Musiikkitiedostojen kansio
-531,d41d8cd98f00b204e9800998ecf8427e,['editText'],"generic label for a command to edit some item (playlist, soundtrack, player-profile, etc)",Edit,Muokata
+531,d41d8cd98f00b204e9800998ecf8427e,['editText'],"generic label for a command to edit some item (playlist, soundtrack, player-profile, etc)",Edit,Muokkaa
 532,d41d8cd98f00b204e9800998ecf8427e,['enabledText'],,Enabled,Käytössä
-533,d41d8cd98f00b204e9800998ecf8427e,['endText'],Label for the button that is opposite of Continue (ends the game instead of continuing),End,Loppu
+533,d41d8cd98f00b204e9800998ecf8427e,['endText'],Label for the button that is opposite of Continue (ends the game instead of continuing),End,Lopeta
 534,d41d8cd98f00b204e9800998ecf8427e,['enjoyText'],"used at the end of a statement to tell the player to enjoy something
 Context Image: http://files.froemling.net/translateGuideImages/promoCodeEmail.png",Enjoy!,Nauti!
 535,d41d8cd98f00b204e9800998ecf8427e,['epicDescriptionFilterText'],,${DESCRIPTION} In epic slow motion.,${DESCRIPTION} eeppisesti hidastettuna.
@@ -800,7 +800,7 @@ ota yhteyttä ${EMAIL} saadaksesi apua."
 551,d41d8cd98f00b204e9800998ecf8427e,"['fileSelectorWindow', 'titleFileText']",title for a file selector window asking the user to select ONLY a file,Select a File,Valitse tiedosto
 552,d41d8cd98f00b204e9800998ecf8427e,"['fileSelectorWindow', 'titleFolderText']",title for a file selector window asking the user to select ONLY a folder,Select a Folder,Valitse kansio
 553,d41d8cd98f00b204e9800998ecf8427e,"['fileSelectorWindow', 'useThisFolderButtonText']","when selecting a folder, this is the title of a button saying to use the current folder",Use This Folder,Käytä tätä kansiota
-554,d41d8cd98f00b204e9800998ecf8427e,['filterText'],Label for a control allowing filtering of servers by name (or similar such things),Filter,Suodattaa
+554,d41d8cd98f00b204e9800998ecf8427e,['filterText'],Label for a control allowing filtering of servers by name (or similar such things),Filter,Suodata
 555,d41d8cd98f00b204e9800998ecf8427e,['finalScoresText'],,Final Scores,Lopulliset pisteet
 556,d41d8cd98f00b204e9800998ecf8427e,['finalScoreText'],,Final Score,Lopputulos
 557,d41d8cd98f00b204e9800998ecf8427e,['finalTimeText'],,Final Time,Viimeinen aika
@@ -1045,13 +1045,13 @@ Context Image: http://files.froemling.net/translateGuideImages/sendPromoCode2.pn
 673,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'startHostingPaidText']","Label for a button which starts hosting a party for some cost. This is shown if there are no free servers available for some amount of time (or in general).
 Context Image: http://files.froemling.net/translateGuideImages/privateHost3.png",Host Now For ${COST},Isännöi nyt ${COST}:lle
 674,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'startHostingText']","Label for a button which starts hosting a party.
-Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Host,Isäntä
+Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png",Host,Isännöi
 675,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'startStopHostingMinutesText']","A message explaining that the user can start or stop hosting for free for some amount of time (in minutes). This is to let players who have paid for a server know that it is safe to stop it, change settings, and restart it again.
 Context Image: http://files.froemling.net/translateGuideImages/privateHost6.png",You can start and stop hosting for free for the next ${MINUTES} minutes.,Voit aloittaa ja lopettaa isännöinnin ilmaiseksi seuraavan ${MINUTES} minuutin ajan.
 676,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'stopHostingText']","Label for a button which stops hosting a party that is currently being hosted.
 Context Image: http://files.froemling.net/translateGuideImages/privateHost5.png",Stop Hosting,Lopeta hosting
 677,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'titleText']","title for the gather window (used to gather a party to play on the network/internet)
-Context Image: http://files.froemling.net/translateGuideImages/gatherAbout.png",Gather,Kerätä
+Context Image: http://files.froemling.net/translateGuideImages/gatherAbout.png",Gather,Kokoa
 678,d41d8cd98f00b204e9800998ecf8427e,"['gatherWindow', 'wifiDirectDescriptionBottomText']","bottom portion of the description in the ""Wi-Fi Direct"" tab in the gather window (used to gather a party to play on the network/internet)
 Context Image: http://files.froemling.net/translateGuideImages/gatherWiFiDirect.png","If all devices have a 'Wi-Fi Direct' panel, they should be able to use it to find
 and connect to each other.  Once all devices are connected, you can form parties
@@ -1634,9 +1634,9 @@ Context Image: http://files.froemling.net/translateGuideImages/privateHost1.png"
 1013,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'multiTeamText']","multi-team mode: several small teams facing off, such as 4 teams with 2 players each",Multi-Team,Multi-Team
 1014,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'singlePlayerCoopText']","an alternate label for cooperative mode that emphasizes the fact that it can be played single-player (if there is no good translation for single player, feel free to leave this the same as Co-op)",Single Player / Co-op,Yksinpeli / Yhteistyö
 1015,d41d8cd98f00b204e9800998ecf8427e,"['playModes', 'teamsText']",standard 2-teams mode: exactly 2 teams with any number of players on each.,Teams,Joukkueet
-1016,d41d8cd98f00b204e9800998ecf8427e,['playText'],,Play,Pelata
+1016,d41d8cd98f00b204e9800998ecf8427e,['playText'],,Play,Pelaa
 1017,d41d8cd98f00b204e9800998ecf8427e,"['playWindow', 'oneToFourPlayersText']",,1-4 players,1-4 pelaajaa
-1018,d41d8cd98f00b204e9800998ecf8427e,"['playWindow', 'titleText']",,Play,Pelata
+1018,d41d8cd98f00b204e9800998ecf8427e,"['playWindow', 'titleText']",,Play,Pelaa
 1019,d41d8cd98f00b204e9800998ecf8427e,"['playWindow', 'twoToEightPlayersText']",,2-8 players,2-8 pelaajaa
 1020,d41d8cd98f00b204e9800998ecf8427e,['pleaseRateText'],,"If you're enjoying ${APP_NAME}, please consider taking a
 moment and rating it or writing a review.  This provides
@@ -1922,11 +1922,11 @@ Context Image: http://files.froemling.net/translateGuideImages/league.png",Show,
 1192,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'ForwardMarch']",,Assault,Hyökkäys
 1193,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'GrandRomp']",,Conquest,Valloitus
 1194,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Hockey']",,Hockey,Jääkiekko
-1195,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Keep Away']",,Keep Away,Pitää poissa
-1196,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Marching']",,Runaround,Veruke
+1195,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Keep Away']",,Keep Away,Pidä loitolla
+1196,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Marching']",,Runaround,Kiertoreitti
 1197,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Menu']",,Main Menu,Päävalikko
 1198,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Onslaught']",,Onslaught,Hyökkäys
-1199,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Race']",,Race,Rotu
+1199,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Race']",,Race,Kilpailu
 1200,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Scary']",,King of the Hill,Kukkulan kuningas
 1201,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Scores']",,Score Screen,Pisteet-näyttö
 1202,d41d8cd98f00b204e9800998ecf8427e,"['soundtrackTypeNames', 'Survival']",,Elimination,Eliminointi
@@ -2148,7 +2148,7 @@ Context Image: http://files.froemling.net/translateGuideImages/ticketdisplay.png
 1345,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'displayItemNames', '${C} Tokens']","A display showing some number of tokens.
 Context Image: http://files.froemling.net/translateGuideImages/tokendisplay.png",${C} Tokens,${C} Tokens
 1346,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'displayItemNames', 'Chest']","Short label for a ""Generic"" chest.
-Context Image: http://files.froemling.net/translateGuideImages/chestopen.png",Chest,Rintakehä
+Context Image: http://files.froemling.net/translateGuideImages/chestopen.png",Chest,Arkku
 1347,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'displayItemNames', 'L1 Chest']","Short label for a ""Level 1"" chest.
 Context Image: http://files.froemling.net/translateGuideImages/chestopen.png",L1 Chest,L1 Rinta
 1348,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'displayItemNames', 'L2 Chest']","Short label for a ""Level 2"" chest.
@@ -2227,14 +2227,14 @@ Tapa valittu tullaksesi sellaiseksi."
 1413,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Elimination']",,Elimination,Eliminointi
 1414,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Football']",,Football,Jalkapallo
 1415,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Hockey']",,Hockey,Jääkiekko
-1416,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Keep Away']",,Keep Away,Pitää poissa
+1416,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Keep Away']",,Keep Away,Pidä loitolla
 1417,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'King of the Hill']",,King of the Hill,Kukkulan kuningas
-1418,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Meteor Shower']",,Meteor Shower,Meteorisadetta
+1418,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Meteor Shower']",,Meteor Shower,Meteorisade
 1419,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Ninja Fight']",name of a mini-game where you try to defeat a group of ninjas as fast as you can.,Ninja Fight,Ninja Fight
 1420,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Onslaught']",,Onslaught,Hyökkäys
-1421,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Race']",,Race,Rotu
-1422,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Runaround']",,Runaround,Veruke
-1423,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Target Practice']",Name for a new mini-game where you throw bombs at targets on the ground.,Target Practice,Tavoitekäytäntö
+1421,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Race']",,Race,Kilpailu
+1422,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Runaround']",,Runaround,Kiertoreitti
+1423,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'Target Practice']",Name for a new mini-game where you throw bombs at targets on the ground.,Target Practice,Tähtäysharjoitus
 1424,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'gameNames', 'The Last Stand']",,The Last Stand,Viimeinen kanta
 1425,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'inputDeviceNames', 'Keyboard']",,Keyboard,Näppäimistö
 1426,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'inputDeviceNames', 'Keyboard P2']",refers to the second player sharing a single keyboard,Keyboard P2,Näppäimistö P2
@@ -2264,7 +2264,7 @@ Tapa valittu tullaksesi sellaiseksi."
 1450,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'Malay']",,Malay,malaiji
 1451,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'Persian']",,Persian,persialainen
 1452,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'PirateSpeak']",,Pirate Speak,Pirate Puhu
-1453,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'Polish']",,Polish,Kiillottaa
+1453,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'Polish']",,Polish,Puola
 1454,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'PortugueseBrazil']",,Portuguese - Brazil,portugali - Brasilia
 1455,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'PortuguesePortugal']",,Portuguese - Portugal,portugali - Portugali
 1456,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'languages', 'Romanian']",,Romanian,romanialainen
@@ -2294,7 +2294,7 @@ Tapa valittu tullaksesi sellaiseksi."
 1480,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Hockey Stadium']",,Hockey Stadium,Jääkiekkostadion
 1481,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Lake Frigid']",Name of a new map which is a frozen lake; feel free to use whatever is a good name for a frozen lake..,Lake Frigid,Kylmäjärvi
 1482,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Monkey Face']",,Monkey Face,Apinan kasvot
-1483,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Rampage']",,Rampage,Riehua
+1483,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Rampage']",,Rampage,Melske
 1484,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Roundabout']",,Roundabout,Liikenneympyrä
 1485,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'Step Right Up']",,Step Right Up,Astu oikealle ylös
 1486,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'mapsNames', 'The Pad']",,The Pad,Pad
@@ -2478,7 +2478,7 @@ Peruuta muutokset ja yritä uudelleen."
 1609,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'Laps']",laps as in a race,Laps,Kierroksia
 1610,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'Lives Per Player']",,Lives Per Player,Lives per pelaaja
 1611,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'Long']",,Long,Pitkä
-1612,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'Longer']",,Longer,pidempään
+1612,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'Longer']",,Longer,Pidempi
 1613,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'Mine Spawning']",,Mine Spawning,Mine Spawning
 1614,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'No Mines']",,No Mines,Ei miinoja
 1615,d41d8cd98f00b204e9800998ecf8427e,"['translations', 'settingNames', 'None']",,None,Ei mitään
@@ -2631,8 +2631,8 @@ Context Image: http://files.froemling.net/translateGuideImages/powerRanking.png"
 1709,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'phrase29Text']",,Good luck!,Onnea!
 1710,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName1Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Fred,Fred
 1711,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName2Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Harry,Harry
-1712,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName3Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Bill,Laskuttaa
-1713,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName4Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Chuck,Heittää
+1712,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName3Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Bill,Bill
+1713,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName4Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Chuck,Chuck
 1714,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'randomName5Text']",This is just a random name used for one of the guys in the tutorial. Feel free to substitute any common name in your language.,Phil,Phil
 1715,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'skipConfirmText']",a confirmation message that prints when you press a button in the tutorial to skip it,Really skip the tutorial? Tap or press to confirm.,Haluatko todellakin ohittaa opetusohjelman? Vahvista napauttamalla tai painamalla.
 1716,d41d8cd98f00b204e9800998ecf8427e,"['tutorial', 'skippingText']",shown when enough votes have been cast to skip the tutorial,skipping tutorial...,ohitetaan opetusohjelma...
@@ -2706,7 +2706,7 @@ Context Image: http://files.froemling.net/translateGuideImages/replayRename.png"
 1767,d41d8cd98f00b204e9800998ecf8427e,"['watchWindow', 'sharedReplaysText']","name of a tab for replays shared with friends/etc (not implemented yet)
 Context Image: http://files.froemling.net/translateGuideImages/watch.png",Shared Replays,Jaetut toistot
 1768,d41d8cd98f00b204e9800998ecf8427e,"['watchWindow', 'titleText']","title for the UI for watching replays, live online games, etc
-Context Image: http://files.froemling.net/translateGuideImages/mainMenu.png",Watch,Katsella
+Context Image: http://files.froemling.net/translateGuideImages/mainMenu.png",Watch,Katso
 1769,d41d8cd98f00b204e9800998ecf8427e,"['watchWindow', 'watchReplayButtonText']","label for the button to watch a replay
 Context Image: http://files.froemling.net/translateGuideImages/watch.png","Watch
 Replay","Katso
