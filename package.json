@@ -1,0 +1,10 @@
+{
+  "name": "emuvex-tictactoe",
+  "version": "1.0.0",
+  "description": "Minimal real-time tic tac toe lobby and tournament server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
